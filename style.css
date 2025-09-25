@@ -1,0 +1,76 @@
+/* Global */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand:hover {
+  color: #12aad8 !important;
+}
+
+/* Hero Section */
+#home h1 {
+  color: #c14545;
+  font-size: 28px;
+}
+#home h3 {
+  font-size: 40px;
+}
+#home h4 {
+  font-size: 28px;
+  margin-bottom: 1em;
+}
+#home span {
+  color: red;
+}
+#home .btn {
+  padding: 0.7em 2em;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+#home .btn:hover {
+  color: black;
+  background-color: white;
+}
+#home img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+/* About Section */
+#about h3 {
+  margin-bottom: 10px;
+  color: #d4c3c3;
+}
+#about h5 {
+  font-size: 28px;
+}
+#about p {
+  font-size: 18px;
+  color: #c4d4e2;
+}
+
+/* Skills Section */
+#skills h2 {
+  color: #fff;
+}
+#skills .bg-dark {
+  transition: 0.3s;
+}
+#skills .bg-dark:hover {
+  background-color: #12aad8 !important;
+  color: #000;
+}
+
+/* Projects */
+#projects h1 {
+  font-size: 40px;
+  color: white;
+}
+#projects img {
+  transition: 0.4s;
+}
+#projects img:hover {
+  transform: scale(1.05);
+}
